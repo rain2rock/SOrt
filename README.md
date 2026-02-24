@@ -27,7 +27,8 @@ Every day, SOrt shows you memories from the same date in past years — like a p
 
 ## Screenshots
 
-> Add your screenshots here
+<img width="804" height="1748" alt="image" src="https://github.com/user-attachments/assets/bfb4909c-1819-4fd1-ad8a-d00ec95f414a" />
+
 
 ---
 
