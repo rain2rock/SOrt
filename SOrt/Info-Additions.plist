@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+    Info.plist additions for Liquid Glass Shader
+    
+    Required permissions:
+    1. Motion Usage (NSMotionUsageDescription) - For accelerometer-based lighting
+    
+    Add these keys to your Info.plist file.
+-->
+<plist version="1.0">
+<dict>
+    <!-- Motion Permission for Accelerometer-based Lighting -->
+    <key>NSMotionUsageDescription</key>
+    <string>The app uses device motion to create realistic lighting effects for the glass interface.</string>
+    
+    <!-- Metal Runtime (automatically included in iOS) -->
+    <!-- No additional keys needed - Metal is standard -->
+    
+    <!-- Optional: Disable dark mode if needed for consistent visuals -->
+    <!-- 
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    -->
+    
+    <!-- Optional: Supported device orientations -->
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    
+    <!-- Performance: Prefer high-performance GPU -->
+    <key>MTLGPUFamilyApple7</key>
+    <true/>
+</dict>
+</plist>
